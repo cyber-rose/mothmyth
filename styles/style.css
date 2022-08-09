@@ -1,3 +1,39 @@
+nav {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: slategray; 
+    margin: 0;
+    padding: 0;  
+}
+
+.menuitem {
+    float: right;
+}
+
+.menuitem a {
+    display: inline-block;
+    padding: 12px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.activemenuitem {
+    display: inline-block;
+    padding: 12px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: maroon;
+}
+
+.menuitem a:hover {
+    background-color: rgb(59, 59, 59);
+}
+
 p {
     color: red;
 }
