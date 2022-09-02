@@ -2,6 +2,7 @@ nav {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     width: 100%;
+    margin: auto;
     background-color: slategray;
 }
 
@@ -11,14 +12,14 @@ nav {
     margin: 0 auto;
     padding: 0 auto;  
     width: 40vw;
-    min-width: none;
+    min-width: 500px;
     display: inline-block;
     text-align: center;
     font-size: 16px;
 }
 
 .menuitem, .activemenuitem {
-    float: right;
+    float: left;
 }
 
 .menuitem a, .activemenuitem {
@@ -40,6 +41,14 @@ h1, h2, h3 {
     text-align: center;
 }
 
+body{
+    min-width: 500px;
+    width: 700px;
+    margin: 0 auto;
+    background-image: linear-gradient( rgb(176, 177, 210) 40%, rgb(225, 176, 176));
+    padding: 1 5 10px 10px auto;
+}
+
 p {
     color:black; 
     text-align: left;
@@ -54,3 +63,4 @@ img {
     display: block;
     margin: 0 auto;
 }
+
