@@ -1,3 +1,4 @@
+
 nav {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
@@ -12,20 +13,21 @@ nav {
     margin: 0 auto;
     padding: 0 auto;  
     width: 40vw;
-    min-width: 500px;
+    min-width: 600px;
     display: inline-block;
     text-align: center;
-    font-size: 16px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
 }
 
 .menuitem, .activemenuitem {
-    float: left;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .menuitem a, .activemenuitem {
-    display: inline-block;
-    padding: 12px;
+    padding: 15px;
     color: whitesmoke;
     text-align: center;
 }
@@ -42,12 +44,17 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h1{
+    font-size: 40px;
+}
+
 body{
-    min-width: 500px;
-    width: 700px;
+    min-width: 400px;
+    width: 728px;
     margin: 0 auto;
-    background-image: linear-gradient( rgb(176, 177, 210) 40%, rgb(225, 176, 176));
+    background-image: linear-gradient( rgb(180, 201, 231) 40%, rgb(176, 203, 225));
     padding: 1 5 10px 10px auto;
+    
 }
 
 p {
@@ -55,9 +62,11 @@ p {
     text-align: left;
     display: flex; 
     font-size: 18px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 img {
@@ -65,3 +74,6 @@ img {
     margin: 0 auto;
 }
 
+ul{
+    font-size: 18px;
+}
