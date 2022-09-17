@@ -19,6 +19,10 @@ nav {
     background-color: slategray;
 }
 
+header {
+    border-bottom: solid;
+}
+
 .menu ol {
     list-style-type: none;
     background-color: slategray; 
@@ -66,9 +70,7 @@ p {
 }
 
 
-
-
-img {
+figure {
     display: block;
     margin: 0 auto;
 }
