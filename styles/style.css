@@ -7,9 +7,8 @@ body{
     min-width: 400px;
     width: 728px;
     margin: 0 auto;
-    background-image: linear-gradient( rgb(180, 201, 231) 40%, rgb(176, 203, 225));
-    padding: 1 5 10px 10px auto;
-    
+    background-image: linear-gradient(rgb(180, 201, 231) 40%, rgb(176, 203, 225));
+    padding: 10px 10px auto;
 }
 
 nav {
@@ -70,9 +69,24 @@ p {
 }
 
 
-figure {
+img {
     display: block;
     margin: 0 auto;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    padding: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+section {
+    border: solid;
 }
 
 ul{
