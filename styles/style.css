@@ -67,9 +67,7 @@ p {
     color:black; 
     display: flex; 
     font-size: 18px;
-    text-indent: 5%;
 }
-
 
 img {
     display: block;
@@ -92,6 +90,23 @@ section {
     padding: 7px;
 }
 
+.timeline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.moment {
+    background-color:rgb(176, 203, 225);
+    margin: 10px;
+    border: dotted;
+}
+
+.moment h4 {
+    margin: 5px;
+}
+
 ul{
     font-size: 18px;
 }
+
