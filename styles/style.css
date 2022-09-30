@@ -22,8 +22,29 @@ nav {
     flex-flow: column;
 }
 
+nav img {
+    width: 50vw;
+    min-width: 728px;
+}
+
 header {
     border-bottom: solid;
+}
+
+header div {
+    display: flex;
+    flex-flow: row;
+    flex: 1 1 200px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+header h2 {
+    margin: 0px;
+}
+
+.project_info {
+    display: block;
 }
 
 h1, h2, h3 {
@@ -125,13 +146,11 @@ figure {
     padding: 5px;
     flex: 1 1 200px;
     justify-content: center;
-    border: dotted;
 }
 
 figcaption {
     text-align: center;
     justify-content: space-between;
-    border:dotted;
 }
 
 /*.txt_framing_img {
